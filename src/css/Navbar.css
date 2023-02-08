@@ -1,0 +1,22 @@
+.nav-item {
+    color: gray;
+}
+
+.logout-button {
+    padding: 0;
+    border: none;
+    background: none;
+    color: gray;
+}
+
+.nav-item:hover {
+    color: black;
+}
+
+.logout-button:hover {
+    color: black;
+}
+
+.selected {
+    color:red;
+}

@@ -1,0 +1,24 @@
+.Company {
+    background: white;
+    width: 50%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.Company p {
+    padding: 10px 10px;
+}
+
+.Company-title {
+    font-size: large;
+    /* color: gray; */
+}
+
+.Company a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Company.Company-title:hover {
+    color: blue;
+}

@@ -1,0 +1,48 @@
+
+.Form {
+    margin: 30px auto;
+    width: 30%;
+    background: rgb(255,255,255, 0.8);
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.Form input {
+    width: 100%; 
+    padding: 12px; 
+    margin: 0 auto;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.Form label {
+    font-size: large;
+    text-align: left;
+}
+
+.Form button {
+   text-align: center;
+   margin-top: 15px; 
+   height: 50px;
+   width: 100%;
+   font-size: large;
+   border-radius: 4px;
+   border: 1px solid #ccc; 
+   background-color:  rgb(26, 144, 186);
+   color: white;
+}
+
+.Form button:hover {
+    background-color: rgba(26, 143, 186, 0.7)
+}
+
+.Error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.Success-message {
+    color: green;
+    margin-top: 10px;
+}
